@@ -1,0 +1,36 @@
+{
+  "main": "index.html",
+  "name": "lion",
+  "description": "Clean web reader. Read and listen to the content of any web page.",
+  "version": "0.0.1",
+  "keywords": [ "lion", "reader", "web", "read", "listen", "readability", "minimalist", "simple", "clean" ],
+  "window": {
+    "title": "lion",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "show": true,
+    "height": 500,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 250
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "maintainers":[{
+   "name": "Jared Wright",
+   "email": "jawerty210@gmail.com",
+   "web": "http://jawerty.github.io",
+   "feedback": "https://github.com/jawerty/lion/issues"
+  }],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }],
+  "bugs": "https://github.com/jawerty/lion/issues",
+  "repositories": [{
+    "type": "git", 
+    "url": "git@github.com:jawerty/lion.git"
+  }]
+}
