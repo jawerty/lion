@@ -7,11 +7,12 @@
 	</script>
 </head>
 <body>
-	<p>lion reader</p>
-	<form id="read" onsubmit="return reader();">
-	<input type="text" id="url" placeholder="url"/>
-	<input type="submit" value="read" />
-	</form>
+	<input type="text" id="url" placeholder="Enter Url" value="http://jawerty.github.io">
+	<input type="button" value="read" onclick="return reader();"/>
+	<select id="recent" name="Recent Links" onchange="onRecentClick(this.value)">
+	  <option value="">recent</option>
+	</select> 
+	<hr>
 	<div id="view">
 	</div>
 </body>

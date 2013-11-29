@@ -1,7 +1,8 @@
 #
 # lion execute file
 #
-echo "Running lion in $PWD..."
+rm ../lion.nw
+echo "Running lion from $PWD"
 zip -r ../lion.nw * > tmp.log
 ../nw ../lion.nw > nw.log
 rm tmp.log
